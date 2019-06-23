@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">BusKassaLite</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="error_invalid_email">Неправильный E-mail!</string>
+    <string name="error_invalid_password">Слишком короткий пароль!</string>
+    <string name="error_incorrect_password">Неверный пароль!</string>
+    <string name="error_field_required">Это поле обязательное для заполнения!</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_settings">Настройки кассы</string>
+
+    <string name="desc_activity_settings">Тут вы можете настроить стоимость билета и т.д.</string>
+    <string name="title_activity_main">Главная</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="work_start">Начало работы: </string>
+    <string name="money">Заработано денег:</string>
+    <string name="routes">Проехано кругов:</string>
+    <string name="pass">Перевезено пассажиров:</string>
+    <string name="work_time">Время в работе:</string>
+    <string name="work_end">Окончание работы:</string>
+    <string name="ticket_price">Стоимость проезда</string>
+    <string name="route_number">Номер маршрута</string>
+    <string name="your_nickname">Ваш ник</string>
+    <string name="dialog_save">Сохранить</string>
+
+    <string name="default_report_format">*** Отчёт за {date} {end_time} ***\n
+        Начало работы: {start_time}\n
+        Окончание работы: {end_time}\n
+        Время работы: {work_time}\n
+        Маршрут: {route}\n
+        Перевезено пассажиров: {passengers}\n
+        Проехано кругов: {routes}\n
+        Заработано: {profit}\n
+        Потрачено: {costs}</string>
+
+    <string name="report_tags_help">{date} - Дата создания отчета\n
+        {end_time} - Время завершения работы\n
+        {start_time} - Время начала работы\n
+        {work_time} - Время работы (H часов MM минут)\n
+        {route} - Номер маршрута\n
+        {passengers} - Количество перевезенных пассажиров\n
+        {routes} - Количество выполненных кругорейсов\n
+        {profit} - Заработок (с пассажиров/чаевыми)\n
+        {costs} - Потрачено во время работы (на табличку/бензин/ремонт и т.д.)\n
+        {summ} - Итоговая прибыль (Заработок-Расходы)</string>
+    <string name="report_format">Формат отчёта</string>
+    <string name="tags_help">Помощь по тегам</string>
+    <string name="today_report">Отчёт</string>
+    <string name="pref_report_desc">Редактировать формат отчета</string>
+    <string name="description">Описание:</string>
+    <string name="cost">Потрачено:</string>
+    <string name="note">Примечания:</string>
+    <string name="costs_name">Название расхода</string>
+    <string name="dialog_next">Далее</string>
+    <string name="no_costs_desc">Сегодня Вы не потратили ни копейки! :)</string>
+    <string name="today_costs_report">Отчёт по расходам</string>
+    <string name="passenger_add">Сел:</string>
+    <string name="passenger_remove">Вышел:</string>
+    <string name="today_pass_report">Отчет по пассажирам</string>
+    <string name="pref_bus_stops_desc">Редактировать остановки</string>
+    <string name="bus_stops">Остановки</string>
+    <string name="start_bus_stop">Сел на остановке</string>
+    <string name="end_bus_stop">Вышел на остановке</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f2f2f2"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ru.fantasticgame.whitebus.PassPrefsActivity"
+    tools:showIn="@layout/activity_pass_prefs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:visibility="visible"
+                android:id="@+id/settings_main"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/card_ticket_price"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="0dp"
+                    app:cardElevation="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="?attr/colorPrimary"
+                            android:text="@string/start_bus_stop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <Spinner
+                            android:id="@+id/start_stop"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp" />
+                        <View android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp" />
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="?attr/colorPrimary"
+                            android:text="@string/end_bus_stop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <Spinner
+                            android:id="@+id/end_stop"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

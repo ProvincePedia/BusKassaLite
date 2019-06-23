@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_home"
+            android:title="Главная" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_bar_chart"
+            android:title="Отчет" />
+        <item
+            android:id="@+id/nav_costs_report"
+            android:icon="@drawable/ic_line_chart"
+            android:title="Отчет по расходам" />
+        <item
+            android:id="@+id/nav_pass_report"
+            android:icon="@drawable/ic_line_chart"
+            android:title="Отчет по пассажирам" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Настройки кассы" />
+            <item
+                android:id="@+id/nav_add_costs"
+                android:icon="@drawable/ic_money"
+                android:title="Внести расходы" />
+        </menu>
+    </item>
+
+</menu>

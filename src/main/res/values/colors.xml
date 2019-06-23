@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BLUE -->
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryLight">#90caf9</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#2196f3</color>
+    <!-- BLUE -->
+
+    <!-- BLUE GREY -->
+    <color name="colorPrimarySettings">#607d8b</color>
+    <color name="colorPrimaryLightSettings">#b2bec5</color>
+    <color name="colorPrimaryDarkSettings">#546e7a</color>
+    <color name="colorAccentSettings">#607d8b</color>
+    <!-- BLUE GREY -->
+
+    <!-- RED -->
+    <color name="colorPrimaryError">#e51c23</color>
+    <color name="colorPrimaryDarkError">#b9151b</color>
+    <color name="colorPrimaryLightError">#f3989b</color>
+    <color name="colorAccentError">#e51c23</color>
+    <!-- RED -->
+</resources>
