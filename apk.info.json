@@ -1,0 +1,20 @@
+{
+  "BusKassaLite": {
+    "stable": {
+      "version_name": "1.6.1",
+      "version_code": 130,
+      "type": "stable",
+      "uploaded": 1585587690000,
+      "download_link": "https://fantastic-game.ru/",
+      "yandex_disk_link": "Тестовые сборки нельзя скачать с Яндекс.Дискаn!"
+    },
+    "developer": {
+      "version_name": "1.6.1 dev",
+      "version_code": 129,
+      "type": "developer",
+      "uploaded": 1585587680000,
+      "download_link": "https://fantastic-game.ru/",
+      "yandex_disk_link": "Тестовые сборки нельзя скачать с Яндекс.Диска!"
+    }
+  }
+}
