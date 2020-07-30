@@ -2,13 +2,13 @@
   "BusKassaLite": {
     "stable": {
       "version_name": "1.7.2",
-      "version_code": 3188,
-      "description":"Данное обновление носит косметический характер. Был обновлен внешний вид приложения. \nТеперь все три отчета (общий, по пассажирам и по расходам) объеденены в одну вкладку",
+      "version_code": 319,
+      "description":"Улучшения в обновленном дизайне",
       "type": "stable",
-      "min_sdk":88,
-      "min_sdk_name":"Android 4.2",
+      "min_sdk":21,
+      "min_sdk_name":"Android 5.0",
       "new":"new",
-      "uploaded": 1595700000000,
+      "uploaded": 1596112970000,
       "download_link": "https://yadi.sk/d/flAqmuDCf-JlYQ",
       "yandex_disk_link": "https://yadi.sk/d/flAqmuDCf-JlYQ"
     },
