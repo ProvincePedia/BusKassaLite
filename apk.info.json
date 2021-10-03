@@ -1,16 +1,16 @@
 {
   "BusKassaLite": {
     "stable": {
-      "version_name": "1.7.2",
-      "version_code": 320,
-      "description":"Улучшения в обновленном дизайне",
+      "version_name": "1.7.3",
+      "version_code": 322,
+      "description":"\n• Исправления\n• Обновлено API получения онлайна.\n• Фикс вылета при попытке отобразить онлайн 8 сервера.\n• Новые автобусы в списке предлогаемых.\n• Изменен скрипт получения информации об обновлениях.\n\n На версиях 1.7.2 и ниже вы больше не сможете получать обновления приложения.",
       "type": "stable",
-      "min_sdk":21,
-      "min_sdk_name":"Android 5.0",
+      "min_sdk":17,
+      "min_sdk_name":"Android 4.2",
       "new":"new",
-      "uploaded": 1596112970000,
-      "download_link": "https://yadi.sk/d/flAqmuDCf-JlYQ",
-      "yandex_disk_link": "https://yadi.sk/d/flAqmuDCf-JlYQ"
+      "uploaded": 0,
+      "download_link": "https://disk.yandex.ru/d/SX8cfBY5d1R8Aw",
+      "yandex_disk_link": "https://disk.yandex.ru/d/SX8cfBY5d1R8Aw"
     },
     "developer": {
       "version_name": "1.7.2",
